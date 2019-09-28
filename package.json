@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "usePhrases"
+    "url": "https://github.com/BenHakimIlyass/usePhrases"
   },
   "keywords": [
     "loading"
   ],
-  "author": "benHakimIlyass",
+  "author": "benHakimilyass",
   "license": "UNLICENSED",
   "dependencies": {
     "react-useinterval": "^1.0.1"
