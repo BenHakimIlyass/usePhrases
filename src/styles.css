@@ -3,3 +3,22 @@
   text-align: center;
   margin: 100px auto;
 }
+@keyframes anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+div {
+  animation: anim 3s infinite;
+}
+h4 {
+  opacity: 0.3;
+  font-size: 0.8rem;
+}
+h3 {
+  opacity: 0.6;
+  font-size: 1rem;
+}

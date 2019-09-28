@@ -1,6 +1,7 @@
 import React from "react";
 import useInterval from "use-interval";
-import styled, { keyframes } from "styled-components";
+import "./styles.css";
+
 const useLoading = arr => {
   const [count, setC] = React.useState(0);
   useInterval(() => {
@@ -9,8 +10,8 @@ const useLoading = arr => {
       setC(0);
     }
   }, 3000);
-  const render = () => (
-    <Container>
+  const rendered = () => (
+    <div key={count}>
       <h4>
         {count === 0
           ? arr[arr.length - 2]
@@ -28,24 +29,9 @@ const useLoading = arr => {
           ? arr[0]
           : arr[count + 2]}
       </h4>
-    </Container>
+    </div>
   );
-  const anim = keyframes`
-  from{opacity:0},to{opacity:1}
-  `;
-  const Container = styled.div`
-    * {
-      animation: ${anim} 3s infinite;
-    }
-    h4 {
-      font-size: 0.8rem;
-      opacity: 0.3;
-    }
-    h3 {
-      font-size: 1rem;
-      opacity: 0.4;
-    }
-  `;
-  return [render()];
+
+  return [rendered()];
 };
 export default useLoading;
