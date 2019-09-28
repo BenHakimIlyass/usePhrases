@@ -1,29 +1,21 @@
 {
-  "name": "new",
+  "name": "usephrases",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.js",
-  "dependencies": {
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-scripts": "3.0.1",
-    "react-spring": "8.0.27",
-    "use-interval": "1.1.0"
-  },
-  "devDependencies": {
-    "typescript": "3.3.3"
-  },
+  "description": "This package return a list of given phrases that will make UX not bored when waiting the response of the server",
+  "main": "usePhrases.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "\\\"Error: no test specified\\\" "
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "repository": {
+    "type": "git",
+    "url": "usePhrases"
+  },
+  "keywords": [
+    "loading"
+  ],
+  "author": "benHakimIlyass",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "react-useinterval": "^1.0.1"
+  }
 }
