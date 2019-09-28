@@ -1,2 +1,0 @@
-# usePhrases
-Created with CodeSandbox
