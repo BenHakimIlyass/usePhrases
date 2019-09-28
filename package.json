@@ -1,6 +1,6 @@
 {
   "name": "usephrases",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package return a list of given phrases that will make UX not bored when waiting the response of the server",
   "main": "usePhrases.js",
   "scripts": {
